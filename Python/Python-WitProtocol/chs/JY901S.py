@@ -149,7 +149,7 @@ if __name__ == '__main__':
     if (platform.system().lower() == 'linux'):
         device.serialConfig.portName = "/dev/ttyUSB0"   #设置串口   Set serial port
     else:
-        device.serialConfig.portName = "COM39"          #设置串口   Set serial port
+        device.serialConfig.portName = "COM7"          #设置串口   Set serial port
     device.serialConfig.baud = 9600                     #设置波特率  Set baud rate
     device.openDevice()                                 #打开串口   Open serial port
     readConfig(device)                                  #读取配置信息 Read configuration information

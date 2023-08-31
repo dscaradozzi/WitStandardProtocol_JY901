@@ -6,8 +6,8 @@ Test on MEGA 2560. use WT901CTTL sensor
 
 WT901CTTL     MEGA 2560
     VCC <--->  5V/3.3V
-    TX  <--->  19(TX1)
-    RX  <--->  18(RX1)
+    TX  <--->  19(TX1) 17 M5Stack Fire
+    RX  <--->  18(RX1) 16 M5Stack Fire
     GND <--->  GND
 */
 

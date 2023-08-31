@@ -2,7 +2,7 @@ clear all;
 close all;
 instrreset;
 disp('Press Ctrl+C to stop collecting data!')              %按Ctrl+C,终止数据的获取
-s=serial('com3','baudrate',9600) ;fopen(s) ;               %请将COM44换成电脑识别到的COM口，波特率9600换成传感器对应的波特率    Please replace COM44 with the COM port recognized by the PC, and change the baud rate 9600 to the baud rate corresponding to the sensor
+s=serial('com13','baudrate',9600) ;fopen(s) ;               %请将COM44换成电脑识别到的COM口，波特率9600换成传感器对应的波特率    Please replace COM44 with the COM port recognized by the PC, and change the baud rate 9600 to the baud rate corresponding to the sensor
 f = 20;         %DataFrequce
 t=0;
 cnt = 1;
